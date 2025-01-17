@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda CR-V EXL 2012/2012 à Venda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .carousel {
+            display: flex;
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+            gap: 10px;
+        }
+
+        .carousel img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .caracteristicas {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            gap: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .caracteristica {
+            flex: 1 1 calc(50% - 10px);
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .caracteristica img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cta a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 600px) {
+            .caracteristica {
+                flex: 1 1 100%;
+            }
+
+            .carousel img {
+                max-height: 200px;
+            }
+
+            .cta a {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Honda CR-V EXL 2012 à Venda</h1>
+</header>
+
+<div class="container">
+    <!-- Carrossel de imagens -->
+    <div class="carousel">
+        <img src="carro1.jpg" alt="Honda CR-V frente">
+        <img src="carro2.jpg" alt="Honda CR-V lateral">
+        <img src="carro3.jpg" alt="Interior do Honda CR-V">
+        <img src="carro4.jpg" alt="Honda CR-V traseira">
+    </div>
+
+    <!-- Características -->
+    <div class="caracteristicas">
+        <div class="caracteristica">
+            <img src="icon-suv.png" alt="Ícone SUV">
+            <span>Tipo: SUV</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-calendar.png" alt="Ícone Ano">
+            <span>Ano: 2012</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-km.png" alt="Ícone Quilometragem">
+            <span>Quilometragem: 180.000 km</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-engine.png" alt="Ícone Motor">
+            <span>Motor: 2.0 Flex</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-fuel.png" alt="Ícone Combustível">
+            <span>Combustível: Gasolina</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-transmission.png" alt="Ícone Câmbio">
+            <span>Câmbio: Automático</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-color.png" alt="Ícone Cor">
+            <span>Cor: Branco</span>
+        </div>
+        <div class="caracteristica">
+            <img src="icon-airbag.png" alt="Ícone Airbag">
+            <span>Air Bag: Sim</span>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta">
+        <a href="https://wa.me/seu-numero" target="_blank">Entre em Contato pelo WhatsApp</a>
+    </div>
+</div>
+
+</body>
+</html>
